@@ -9,7 +9,7 @@ class RestaurantServiceTest {
 
     private  RestaurantService service = new RestaurantService();
     private  Restaurant restaurant;
-    private  Restaurant actualrestaurant;
+
 
     public  LocalTime openingTime = LocalTime.parse("10:30:00");
     public  LocalTime closingTime = LocalTime.parse("22:00:00");

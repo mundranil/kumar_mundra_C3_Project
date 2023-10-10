@@ -5,13 +5,6 @@ import java.util.List;
 public class RestaurantService {
     private static List<Restaurant> restaurants = new ArrayList<>();
 
-    // for code execution purpose added Restaurant object
-
-//    static {
-//        LocalTime oTime = LocalTime.of(10, 0);
-//        LocalTime cTime = LocalTime.of(22, 0);
-//        restaurants.add(new Restaurant("Paradise", "Texas", oTime, cTime));
-//    }
 
     public Restaurant findRestaurantByName(String restaurantName) throws restaurantNotFoundException {
         for (Restaurant restaurant : restaurants) {
